@@ -1,6 +1,7 @@
 main:
   - title: "Quick-Start Guide"
     url: /docs/quick-start-guide/
+    description: "It is a good guide"
   - title: "Posts"
     url: /year-archive/
   - title: "Categories"
