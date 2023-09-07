@@ -1,16 +1,13 @@
 main:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
-    description: "It is a good guide"
-  - title: "Posts"
-    url: /year-archive/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "Pages"
-    url: /page-archive/
-  - title: "Collections"
-    url: /collection-archive/
-  - title: "External Link"
-    url: https://google.com
+  - title: "About"
+    url: /docs/about/
+    description: "It is a good about section"
+  - title: "Books"
+    url: /docs/books/
+    description: "It is also a good section"
+  - title: "Games"
+    url: /docs/games/
+    description: "It is maybe a good section"
+  - title: "Works"
+    url: /docs/works/
+    description: "It is probably a section"
