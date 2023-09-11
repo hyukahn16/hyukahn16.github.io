@@ -1,13 +1,13 @@
 main:
   - title: "About"
-    url: /docs/about/
+    url: /about/
     description: "It is a good about section"
   - title: "Books"
-    url: /docs/books/
+    url: /books/
     description: "It is also a good section"
   - title: "Games"
-    url: /docs/games/
+    url: /games/
     description: "It is maybe a good section"
   - title: "Works"
-    url: /docs/works/
-    description: "It is probably a section"
+    url: /works/
+    description: "It is probably a works section"
