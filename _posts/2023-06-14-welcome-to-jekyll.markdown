@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: splash
 title:  "Welcome to Jekyll!"
 date:   2023-06-14 05:43:50 +0000
 categories: jekyll update
