@@ -4,6 +4,5 @@ taxonomy: paper_summary
 title: Paper Summary
 permalink: /paper_summary/
 ---
-[get the PDF]({{ site.url }}{{ site.baseurl }}/_pdfs/reading-paper.pdf)
-<object data="{{ site.url }}/_pdfs/reading-paper.pdf" width="1000" height="1000" type="application/pdf"></object>
+[get the PDF]({{ site.url }}{{ site.baseurl }}/pdfs/reading-paper.pdf)
 This is paper summary page
