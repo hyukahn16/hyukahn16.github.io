@@ -8,7 +8,7 @@ classes: wide
 [Paper Link]([https://link-url-here.org](https://openreview.net/pdf?id=Azh9QBQ4tR7))
 
 ### Comprehension
-<font size="3">
+<font size="4">
 What is the research problem the paper attempts to address?\
 What are the claimed contributions of the paper?\
 How do the authors substantiate their claims?\
