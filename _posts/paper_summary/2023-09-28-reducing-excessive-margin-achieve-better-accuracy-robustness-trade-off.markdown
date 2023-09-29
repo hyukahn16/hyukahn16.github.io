@@ -9,15 +9,17 @@ classes: wide
 
 ### Comprehension
 <font size="4">
-What is the research problem the paper attempts to address?\
-What are the claimed contributions of the paper?\
-How do the authors substantiate their claims?\
-What are the conclusions? </font>\
+What is the research problem the paper attempts to address?</br>
+What are the claimed contributions of the paper?</br>
+How do the authors substantiate their claims?</br>
+What are the conclusions?
+</font>  
 
 ### Evaluation
 <font size="4">
-Is the research problem significant?\
-Are the contributions significant?\
-Are the claims valid?\ </font>
+Is the research problem significant?</br>
+Are the contributions significant?</br>
+Are the claims valid?
+</font>
 
 ### Synthesis/Paper Review
