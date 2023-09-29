@@ -15,5 +15,9 @@ How do the authors substantiate their claims?\
 What are the conclusions? </font>\
 
 ### Evaluation
+<font size="4">
+Is the research problem significant?\
+Are the contributions significant?\
+Are the claims valid?\ </font>
 
 ### Synthesis/Paper Review
