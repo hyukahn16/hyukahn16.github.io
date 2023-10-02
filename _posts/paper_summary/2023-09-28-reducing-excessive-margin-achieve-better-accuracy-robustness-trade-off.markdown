@@ -11,8 +11,8 @@ classes: wide
 <font size="4">
 <ins>What is the research problem the paper attempts to address?</ins><br>
   <font size="3.5">
-  While adversarial training is known to be a method to protect models against adversarial attacks, it is known to reduce the accuracy. This paper attempts to address this robustness-accuracy tradeoff, which has been postulated by previous works, that they are at odds with one another.
-<font size="4">
+  While adversarial training is known to be a method to protect models against adversarial attacks, it is known to reduce the accuracy. This paper attempts to address this robustness-accuracy tradeoff, which has been postulated by previous works, that they are at odds with one another.<br>
+  </font>
 <ins>What are the claimed contributions of the paper?</ins><br>
 <ins>How do the authors substantiate their claims?</ins><br>
 <ins>What are the conclusions?</ins>
