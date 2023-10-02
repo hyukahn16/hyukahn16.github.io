@@ -9,11 +9,13 @@ classes: wide
 
 ### Comprehension
 <font size="4">
-What is the research problem the paper attempts to address?<br>
+<ins>What is the research problem the paper attempts to address?</ins><br>
+  <font size="3.5">
   While adversarial training is known to be a method to protect models against adversarial attacks, it is known to reduce the accuracy. This paper attempts to address this robustness-accuracy tradeoff, which has been postulated by previous works, that they are at odds with one another.
-What are the claimed contributions of the paper?<br>
-How do the authors substantiate their claims?<br>
-What are the conclusions?
+<font size="4">
+<ins>What are the claimed contributions of the paper?</ins><br>
+<ins>How do the authors substantiate their claims?</ins><br>
+<ins>What are the conclusions?</ins>
 </font>  
 
 ### Evaluation
