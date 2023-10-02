@@ -14,6 +14,9 @@ classes: wide
   While adversarial training is known to be a method to protect models against adversarial attacks, it is known to reduce the accuracy. This paper attempts to address this robustness-accuracy tradeoff, which has been postulated by previous works, that they are at odds with one another.<br>
   </font>
 <ins>What are the claimed contributions of the paper?</ins><br>
+  <font size="3.5">
+  The paper attempts to address the research problem by studying the effects of adversarial training ("_[examining] the changes induced in the decision boundary of a deep network during adversarial training_"). They claim that adversarial training causes "_unwarranted increase in the margin along certain adversarial directions_" which leads to lower accuracy.<br>
+  </font>
 <ins>How do the authors substantiate their claims?</ins><br>
 <ins>What are the conclusions?</ins>
 </font>  
