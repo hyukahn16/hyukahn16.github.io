@@ -9,7 +9,8 @@ classes: wide
 
 ### Comprehension
 <font size="4">
-What is the research problem the paper attempts to address?</br>
+What is the research problem the paper attempts to address?  
+  
 What are the claimed contributions of the paper?</br>
 How do the authors substantiate their claims?</br>
 What are the conclusions?
