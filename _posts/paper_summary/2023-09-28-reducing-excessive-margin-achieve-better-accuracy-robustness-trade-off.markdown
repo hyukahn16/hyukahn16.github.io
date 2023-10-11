@@ -20,6 +20,9 @@ classes: wide
   </font>
   
 <ins>How do the authors substantiate their claims?</ins><br>
+  <font size="3.5">
+  The effect of <em>Helper-based Adversarial Training (HAT)</em> is claimed through...
+  </font>
 <ins>What are the conclusions?</ins>
 </font>  
 
@@ -37,6 +40,3 @@ classes: wide
 <font size="4">
 <ins>What is the crux of the research problem?</ins><br>
 </font>
-
-
-### Hello
