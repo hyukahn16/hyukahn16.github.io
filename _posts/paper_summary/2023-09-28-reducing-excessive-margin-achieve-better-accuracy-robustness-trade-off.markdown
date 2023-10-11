@@ -32,4 +32,5 @@ classes: wide
 <ins>Are the claims valid?</ins>
 </font>
 
-### Synthesis/Paper Review
+### Synthesis
+<font size="4">Synthesis here</font>
