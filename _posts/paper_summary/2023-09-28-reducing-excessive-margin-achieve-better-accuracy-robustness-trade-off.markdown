@@ -32,7 +32,10 @@ classes: wide
 <ins>Are the claims valid?</ins>
 </font>
 
-## Synthesis
+### Synthesis
 <font size="4">
 <ins>What is the crux of the research problem?</ins><br>
 </font>
+
+
+### Hello
