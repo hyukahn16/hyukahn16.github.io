@@ -7,7 +7,7 @@ classes: wide
 
 [Paper Link]([https://link-url-here.org](https://openreview.net/pdf?id=Azh9QBQ4tR7))
 
-### Comprehension
+<h2>Comprehension</h2>
 <font size="4">
 <ins>What is the research problem the paper attempts to address?</ins><br>
   <font size="3.5">
@@ -23,7 +23,7 @@ classes: wide
 <ins>What are the conclusions?</ins>
 </font>  
 
-### Evaluation
+<h2>Evaluation</h2>
 <font size="4">
 <ins>Is the research problem significant?</ins><br>
   <font size="3.5">
