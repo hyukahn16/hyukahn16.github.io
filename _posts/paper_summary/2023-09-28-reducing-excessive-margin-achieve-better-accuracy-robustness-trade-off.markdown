@@ -33,7 +33,7 @@ classes: wide
 </font>
 
 
-### Synthesis
+<h3>Synthesis</h3>
 <font size="4">
 <ins>What is the crux of the research problem?</ins><br>
 </font>
