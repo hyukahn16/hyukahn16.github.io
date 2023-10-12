@@ -16,12 +16,13 @@ classes: wide
   
 <ins>What are the claimed contributions of the paper?</ins><br>
   <font size="3.5">
-  The paper attempts to address the research problem by studying the effects of adversarial training ("<em>examin[ing] the changes induced in the decision boundary of a deep network during adversarial training</em>"). They claim that adversarial training causes "<em>unwarranted increase in the margin along certain adversarial directions</em>" which leads to lower accuracy. The main claimed contribution of this paper is the new algorithm <em>Helper-based Adversarial Training (HAT)</em> which provides better robustness without sacrificing the accuracy compared to existing adversarial defense<br>
+  The paper attempts to address the research problem by studying the effects of adversarial training ("<em>examin[ing] the changes induced in the decision boundary of a deep network during adversarial training</em>"). They claim that (1) adversarial training causes "<em>unwarranted increase in the margin along certain adversarial directions</em>" which leads to lower accuracy. The main claimed contribution of this paper is the (2) new algorithm <em>Helper-based Adversarial Training (HAT)</em> which provides better robustness without sacrificing the accuracy compared to existing adversarial defense<br>
   </font>
   
 <ins>How do the authors substantiate their claims?</ins><br>
   <font size="3.5">
-  The effect of <em>Helper-based Adversarial Training (HAT)</em> is claimed through...
+  (1) Using CIFAR-10 and ResNet-18 (94.6% accuracy, 0% robustness to PGD L-inf attacks) fine-tuned with adversarial training (83.3% accuracy, 51.6% robustness), <br>
+  (2) The effect of <em>Helper-based Adversarial Training (HAT)</em> is claimed through...<br>
   </font>
 <ins>What are the conclusions?</ins>
 </font>  
