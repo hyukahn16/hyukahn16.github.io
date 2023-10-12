@@ -21,12 +21,14 @@ classes: wide
   
 <ins>How do the authors substantiate their claims?</ins><br>
   <font size="3.5">
-  Claim (1): Adversarial training causes the decision boundaries of the network to shift unncessarily far in the adversarial direction<br>
+  <b>Claim (1):</b>  Adversarial training causes the decision boundaries of the network to shift unncessarily far in the adversarial direction.<br><br>
   Using CIFAR-10 and ResNet-18 (94.6% accuracy, 0% robustness to PGD L-inf attacks) fine-tuned with adversarial training (83.3% accuracy, 51.6% robustness), the authors first show that the network overfits or accounts excessively for the initial adversarial training directions as show in the graph below.<br><br>
   <img src="/assets/images/rade_margin_0.PNG" alt="Rade Charts"><br><br>
   The central argument from this graph is that the left-most image shows greatest difference between the initial margins and the final margins. This difference in the margins may mean that the effect of adversarial training is pushing the decision boundaries unncessarily farther in the direction of the initial adversarial training while only slightly pushing it for later adversarial training.<br><br>
+
+  <b>Claim (2):</b>  <em>The drastic rise in the margin along the initial adversarial training direction is directly correlated to the observed reduction in accuracy."</em><br><br>
   
-  Claim (2): New algorithm called "Helper-based Adversarial Training" (HAT) provides better robustness without sacrificing the accuracy compared to existing adversarial defenses.<br>
+  <b>Claim (3):</b>  New algorithm called "Helper-based Adversarial Training" (HAT) provides better robustness without sacrificing the accuracy compared to existing adversarial defenses.<br><br>
   The effect of <em>Helper-based Adversarial Training (HAT)</em> is claimed through...<br>
   <br>
   </font>
