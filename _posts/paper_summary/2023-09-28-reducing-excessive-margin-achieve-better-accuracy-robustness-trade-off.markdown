@@ -13,6 +13,7 @@ classes: wide
 <ins>What is the research problem the paper attempts to address?</ins><br>
   <font size="4">
   While adversarial training is known to be a method to protect models against adversarial attacks, it is known to reduce the accuracy. This paper attempts to address this robustness-accuracy tradeoff, which has been postulated by previous works, that they are at odds with one another.<br><br>
+  {% include_relative rade_research_problem.html %}
   </font>
   
 <ins>What are the claimed contributions of the paper?</ins><br>
