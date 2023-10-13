@@ -9,9 +9,4 @@ permalink: /paper_summary/
 [How to Read a Paper](/pdfs/HowtoReadPaper.pdf){:target="_blank"}{:rel="noopener noreferrer"} by S. Keshav<br>
 [How to do research](http://people.csail.mit.edu/billf/publications/How_To_Do_Research.pdf){:target="_blank"}{:rel="noopener noreferrer"} by Bill Freeman, CSAIL, MIT<br>
 
-{% for html in site.html_pages %}
-{{ html.title }}
-{% endfor %}
-BBBBBB
-{% include_relative assets/contents/robust.html %}
 ## <ins>Summaries</ins>
