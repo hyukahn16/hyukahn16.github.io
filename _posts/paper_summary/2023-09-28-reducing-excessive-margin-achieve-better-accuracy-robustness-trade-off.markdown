@@ -24,7 +24,7 @@ classes: wide
   Using CIFAR-10 and ResNet-18 (94.6% accuracy, 0% robustness to PGD L-inf attacks) fine-tuned with adversarial training (83.3% accuracy, 51.6% robustness), the authors first show that the network overfits or accounts excessively for the initial adversarial training directions as show in the graph below.<br><br>
   <img src="/assets/images/rade_margin_0.PNG" alt="Rade Charts"><br><br>
   <a href="/assets/images/rade_margin_0.PNG" target="_blank">
-    <img width="220" height="250" border="0" align="center"  src="/assets/images/rade_margin_0.PNG"/>
+    <img src="/assets/images/rade_margin_0.PNG"/>
   </a>
   The central argument from this graph is that the left-most image shows greatest difference between the initial margins and the final margins. This difference in the margins may mean that the effect of adversarial training is pushing the decision boundaries unncessarily farther in the direction of the initial adversarial training while only slightly pushing it for later adversarial training.<br><br>
 
