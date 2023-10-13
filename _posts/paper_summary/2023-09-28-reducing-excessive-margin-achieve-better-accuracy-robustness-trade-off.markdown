@@ -4,7 +4,8 @@ title: Reducing Excessive Margin to Achieve a Better Accuracy vs. Robustness Tra
 categories: paper_summary
 classes: wide
 ---
-[Paper Link]([https://link-url-here.org](https://openreview.net/pdf?id=Azh9QBQ4tR7))
+[Paper Link](https://openreview.net/pdf?id=Azh9QBQ4tR7)
+[GitHub Code Link](https://github.com/imrahulr/hat)
 
 <h2>Comprehension</h2>
 <font size="4">
