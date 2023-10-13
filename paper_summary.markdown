@@ -11,4 +11,5 @@ permalink: /paper_summary/
 
 {% for page in site.pages %}
 {{ page.title }}
+{% endfor %}
 ## <ins>Summaries</ins>
