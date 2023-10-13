@@ -8,19 +8,19 @@ classes: wide
 [GitHub Code Link](https://github.com/imrahulr/hat)
 
 <h2>Comprehension</h2>
-<font size="4">
+<font size="5">
 <ins>What is the research problem the paper attempts to address?</ins><br>
-  <font size="3.5">
+  <font size="4">
   While adversarial training is known to be a method to protect models against adversarial attacks, it is known to reduce the accuracy. This paper attempts to address this robustness-accuracy tradeoff, which has been postulated by previous works, that they are at odds with one another.<br><br>
   </font>
   
 <ins>What are the claimed contributions of the paper?</ins><br>
-  <font size="3.5">
+  <font size="4">
   The paper attempts to address the research problem by studying the effects of adversarial training ("<em>examin[ing] the changes induced in the decision boundary of a deep network during adversarial training</em>"). They claim that (1) adversarial training causes "<em>unwarranted increase in the margin along certain adversarial directions</em>" which leads to lower accuracy. The main claimed contribution of this paper is the (2) new algorithm <em>Helper-based Adversarial Training (HAT)</em> which provides better robustness without sacrificing the accuracy compared to existing adversarial defense<br><br>
   </font>
   
 <ins>How do the authors substantiate their claims?</ins><br>
-  <font size="3.5">
+  <font size="4">
   <b>Claim (1):</b>  Adversarial training causes the decision boundaries of the network to shift unncessarily far in the adversarial direction.<br><br>
   Using CIFAR-10 and ResNet-18 (94.6% accuracy, 0% robustness to PGD L-inf attacks) fine-tuned with adversarial training (83.3% accuracy, 51.6% robustness), the authors first show that the network overfits or accounts excessively for the initial adversarial training directions as show in the graph below.<br><br>
   <a href="/assets/images/rade_margin_0.PNG" target="_blank">
@@ -35,7 +35,7 @@ classes: wide
   </a><br><br>
   
   <b>Claim (3):</b>  Pushing the decision boundary only slightly achieves enough robustness (while maintaining accuracy). New algorithm called "Helper-based Adversarial Training" (HAT) provides better robustness without sacrificing the accuracy compared to existing adversarial defenses.<br><br>
-  The effect of <em>Helper-based Adversarial Training (HAT)</em> is claimed through...<br><br>
+  The effect of <em>Helper-based Adversarial Training (HAT)</em> is claimed through experimental results that compare the accuracy and robustness of the networks adversarially trained with HAT and 3 other adversarial training methods.<br><br>
   <a href="/assets/images/rade_2.PNG" target="_blank">
     <img src="/assets/images/rade_2.PNG"/>
   </a><br><br>
@@ -44,9 +44,9 @@ classes: wide
 </font>  
 
 <h2>Evaluation</h2>
-<font size="4">
+<font size="5">
 <ins>Is the research problem significant?</ins><br>
-  <font size="3.5">
+  <font size="4">
   Yes, the research problem is significant. Adversarial training is an actively researched field as one of the adversarial defense methods. Despite the benefits provided by adversarial training, the comparative downside of lowered accuracy has been a challenge among researchers (postulated by <em>Theoretically Principled Trade-off between Robustness and Accuracy</em>). Either solving or reducing the effect of this trade-off would be a significant milestone in cementing adversarial training as the leading methods of adversarial defense.
   </font>
 <ins>Are the contributions significant?</ins><br>
