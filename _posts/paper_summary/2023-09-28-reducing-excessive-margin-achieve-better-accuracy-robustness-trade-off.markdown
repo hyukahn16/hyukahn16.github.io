@@ -7,7 +7,7 @@ classes: wide
 [Paper Link](https://openreview.net/pdf?id=Azh9QBQ4tR7){:target="_blank"}{:rel="noopener noreferrer"}\
 [GitHub Code Link](https://github.com/imrahulr/hat){:target="_blank"}{:rel="noopener noreferrer"}
 
-<h2>Comprehension</h2>
+<h1>Comprehension</h1>
 <font size="5">
 <ins>What is the research problem the paper attempts to address?</ins><br>
   <font size="4">
