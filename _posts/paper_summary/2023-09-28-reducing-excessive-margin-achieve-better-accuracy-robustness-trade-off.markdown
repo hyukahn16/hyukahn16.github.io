@@ -24,16 +24,16 @@ classes: wide
   Using CIFAR-10 and ResNet-18 (94.6% accuracy, 0% robustness to PGD L-inf attacks) fine-tuned with adversarial training (83.3% accuracy, 51.6% robustness), the authors first show that the network overfits or accounts excessively for the initial adversarial training directions as show in the graph below.<br><br>
   <a href="/assets/images/rade_margin_0.PNG" target="_blank">
     <img src="/assets/images/rade_margin_0.PNG"/>
-  </a><br>
+  </a><br><br>
   The central argument from this graph is that the left-most image shows greatest difference between the initial margins and the final margins. This difference in the margins may mean that the effect of adversarial training is pushing the decision boundaries unncessarily farther in the direction of the initial adversarial training while only slightly pushing it for later adversarial training.<br><br>
 
-  <b>Claim (2):</b>  <em>The drastic rise in the margin along the initial adversarial training direction is directly correlated to the observed reduction in accuracy."</em><br><br>
+  <b>Claim (2):</b>  <em>"The drastic rise in the margin along the initial adversarial training direction is directly correlated to the observed reduction in accuracy."</em><br><br>
   Using an adversarially fine-tuned network (trained on CIFAR-10) using TRADES with various robustness-accuracy trade-off variable. As this variable was increased in the experiment, the margin also increased in the direction of the initial adversarial direction along with increased reduction in accuracy.<br><br>
   <a href="/assets/images/rade_1.PNG" target="_blank">
     <img src="/assets/images/rade_1.PNG" height="600" width="600"/>
-  </a><br>
+  </a><br><br>
   
-  <b>Claim (3):</b>  New algorithm called "Helper-based Adversarial Training" (HAT) provides better robustness without sacrificing the accuracy compared to existing adversarial defenses.<br><br>
+  <b>Claim (3):</b>  Pushing the decision boundary only slightly achieves enough robustness (while maintaining accuracy). New algorithm called "Helper-based Adversarial Training" (HAT) provides better robustness without sacrificing the accuracy compared to existing adversarial defenses.<br><br>
   The effect of <em>Helper-based Adversarial Training (HAT)</em> is claimed through...<br>
   <br>
   </font>
