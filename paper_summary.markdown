@@ -12,5 +12,6 @@ permalink: /paper_summary/
 {% for html in site.html_pages %}
 {{ html.title }}
 {% endfor %}
-AAHHHH
+BBBBBB
+{% include_relative assets/contents/robust.html %}
 ## <ins>Summaries</ins>
