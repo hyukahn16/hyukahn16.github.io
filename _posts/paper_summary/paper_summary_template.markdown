@@ -21,7 +21,7 @@ classes: wide
   {% include_relative {{ post_name | append: "_0.html" }} %}<br><br>
   </font>
   
-<ins>How do the authors substantiate their claims? bruh bruh</ins><br>
+<ins>How do the authors substantiate their claims?</ins><br>
   <font size="4">
   {% include_relative {{ post_name | append: "_claim_0.html" }} %}<br><br>
   {% include_relative {{ post_name | append: "_claim_1.html" }} %}<br><br>
