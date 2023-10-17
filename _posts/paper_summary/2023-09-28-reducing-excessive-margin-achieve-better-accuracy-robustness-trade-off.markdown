@@ -38,7 +38,7 @@ classes: wide
 <font size="4.5">
 <ins>Is the research problem significant?</ins><br>
   <font size="4">
-  Yes, the research problem is significant. Adversarial training is an actively researched field as one of the adversarial defense methods. Despite the benefits provided by adversarial training, the comparative downside of lowered accuracy has been a challenge among researchers (postulated by <em>Theoretically Principled Trade-off between Robustness and Accuracy</em>). Either solving or reducing the effect of this trade-off would be a significant milestone in cementing adversarial training as the leading methods of adversarial defense.
+  {% include_relative {{ post_name | append: "_eval_0.html" }} %}<br><br>
   </font>
 <ins>Are the contributions significant?</ins><br>
 <ins>Are the claims valid?</ins><br>
