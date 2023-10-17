@@ -36,6 +36,9 @@ classes: wide
   {% include_relative {{ post_name | append: "eval_0.html" }} %}<br><br>
   </font>
 <ins>Are the contributions significant?</ins><br>
+  <font size="4">
+  {% include_relative {{ post_name | append: "eval_1.html" }} %}<br><br>
+  </font>
 <ins>Are the claims valid?</ins><br>
 </font>
 
