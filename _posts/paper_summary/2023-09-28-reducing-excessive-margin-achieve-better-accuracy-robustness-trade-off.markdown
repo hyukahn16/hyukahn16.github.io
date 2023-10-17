@@ -4,14 +4,10 @@ title: Reducing Excessive Margin to Achieve a Better Accuracy vs. Robustness Tra
 categories: paper_summary
 classes: wide
 ---
-{% assign question_font_size = "4.5" %}
-{% assign answer_font_size = "4" %}
 {% assign post_name = "rade" %}
 \
 [Paper Link](https://openreview.net/pdf?id=Azh9QBQ4tR7){:target="_blank"}{:rel="noopener noreferrer"}\
 [GitHub Code Link](https://github.com/imrahulr/hat){:target="_blank"}{:rel="noopener noreferrer"}
-
-
 
 <h2>Comprehension</h2>
 <font size= "4.5">
