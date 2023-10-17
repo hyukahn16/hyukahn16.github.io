@@ -4,6 +4,9 @@ title: Reducing Excessive Margin to Achieve a Better Accuracy vs. Robustness Tra
 categories: paper_summary
 classes: wide
 ---
+{% # This is comment %}
+{% assign post_name = "rade" %}
+
 \
 [Paper Link](https://openreview.net/pdf?id=Azh9QBQ4tR7){:target="_blank"}{:rel="noopener noreferrer"}\
 [GitHub Code Link](https://github.com/imrahulr/hat){:target="_blank"}{:rel="noopener noreferrer"}
@@ -12,7 +15,8 @@ classes: wide
 <font size="4.5">
 <ins>What is the research problem the paper attempts to address?</ins><br>
   <font size="4">
-  {% include_relative rade_research_problem.html %}<br><br>
+  {% assign rade_0 = post_name | append: "_0.html" %}
+  {% include_relative rade_0 %}<br><br>
   </font>
   
 <ins>What are the claimed contributions of the paper?</ins><br>
