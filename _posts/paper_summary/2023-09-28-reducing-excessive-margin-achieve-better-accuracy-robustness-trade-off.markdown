@@ -15,7 +15,7 @@ classes: wide
 <ins>What is the research problem the paper attempts to address?</ins><br>
   <font size="4">
   {% assign rade_0 = post_name | append: "_0.html" %}
-  {% include_relative rade_0 %}<br><br>
+  {% include_relative {{ rade_0 }} %}<br><br>
   </font>
   
 <ins>What are the claimed contributions of the paper?</ins><br>
