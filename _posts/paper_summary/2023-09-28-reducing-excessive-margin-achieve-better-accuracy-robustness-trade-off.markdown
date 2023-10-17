@@ -11,11 +11,12 @@ classes: wide
 [Paper Link](https://openreview.net/pdf?id=Azh9QBQ4tR7){:target="_blank"}{:rel="noopener noreferrer"}\
 [GitHub Code Link](https://github.com/imrahulr/hat){:target="_blank"}{:rel="noopener noreferrer"}
 
+
+
 <h2>Comprehension</h2>
-<font size= {{ question_font_size }}>
+<font size= "4.5">
 <ins>What is the research problem the paper attempts to address?</ins><br>
   <font size="4">
-<!--   {% assign rade_0 = post_name | append: "_0.html" %} -->
   {% include_relative {{ post_name | append: "_0.html" }} %}<br><br>
   </font>
   
@@ -26,12 +27,7 @@ classes: wide
   
 <ins>How do the authors substantiate their claims?</ins><br>
   <font size="4">
-  <b>Claim (1):</b>  Adversarial training causes the decision boundaries of the network to shift unncessarily far in the adversarial direction.<br><br>
-  Using CIFAR-10 and ResNet-18 (94.6% accuracy, 0% robustness to PGD L-inf attacks) fine-tuned with adversarial training (83.3% accuracy, 51.6% robustness), the authors first show that the network overfits or accounts excessively for the initial adversarial training directions as show in the graph below.<br><br>
-  <a href="/assets/images/rade_margin_0.PNG" target="_blank">
-    <img src="/assets/images/rade_margin_0.PNG"/>
-  </a><br><br>
-  The central argument from this graph is that the left-most image shows greatest difference between the initial margins and the final margins. This difference in the margins may mean that the effect of adversarial training is pushing the decision boundaries unncessarily farther in the direction of the initial adversarial training while only slightly pushing it for later adversarial training.<br><br>
+  {% include_relative {{ post_name | append: "_claim_0.html" }} %}<br><br>
 
   <b>Claim (2):</b>  <em>"The drastic rise in the margin along the initial adversarial training direction is directly correlated to the observed reduction in accuracy."</em><br><br>
   Using an adversarially fine-tuned network (trained on CIFAR-10) using TRADES with various robustness-accuracy trade-off variable. As this variable was increased in the experiment, the margin also increased in the direction of the initial adversarial direction along with increased reduction in accuracy.<br><br>
