@@ -23,9 +23,7 @@ classes: wide
   
 <ins>How do the authors substantiate their claims? bruh bruh</ins><br>
   <font size="4">
-  {% include_relative {{ post_name | append: "claim_0.html" }} %}<br><br>
-  {% include_relative {{ post_name | append: "claim_1.html" }} %}<br><br>
-  {% include_relative {{ post_name | append: "claim_2.html" }} %}<br><br>
+  {% include_relative {{ post_name | append: "comprehension_2.html" }} %}<br><br>
   </font>
 <ins>What are the conclusions?</ins>
 </font>  
