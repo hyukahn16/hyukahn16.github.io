@@ -4,7 +4,6 @@ title: Reducing Excessive Margin to Achieve a Better Accuracy vs. Robustness Tra
 categories: paper_summary
 classes: wide
 ---
-{% # This is comment %}
 {% assign post_name = "rade" %}
 
 \
