@@ -29,12 +29,7 @@ classes: wide
   <font size="4">
   {% include_relative {{ post_name | append: "_claim_0.html" }} %}<br><br>
   {% include_relative {{ post_name | append: "_claim_1.html" }} %}<br><br>
-  
-  <b>Claim (3):</b>  Pushing the decision boundary only slightly achieves enough robustness (while maintaining accuracy). New algorithm called "Helper-based Adversarial Training" (HAT) provides better robustness without sacrificing the accuracy compared to existing adversarial defenses.<br><br>
-  The effect of <em>Helper-based Adversarial Training (HAT)</em> is claimed through experimental results that compare the accuracy and robustness of the networks adversarially trained with HAT and 3 other adversarial training methods.<br><br>
-  <a href="/assets/images/rade_2.PNG" target="_blank">
-    <img src="/assets/images/rade_2.PNG"/>
-  </a><br><br>
+  {% include_relative {{ post_name | append: "_claim_2.html" }} %}<br><br>
   </font>
 <ins>What are the conclusions?</ins>
 </font>  
