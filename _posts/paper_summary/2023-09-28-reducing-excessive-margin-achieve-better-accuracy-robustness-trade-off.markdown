@@ -4,7 +4,7 @@ title: Reducing Excessive Margin to Achieve a Better Accuracy vs. Robustness Tra
 categories: paper_summary
 classes: wide
 ---
-{% assign post_name = "rade" %}
+{% assign post_name = "rade/" %}
 \
 [Paper Link](https://openreview.net/pdf?id=Azh9QBQ4tR7){:target="_blank"}{:rel="noopener noreferrer"}\
 [GitHub Code Link](https://github.com/imrahulr/hat){:target="_blank"}{:rel="noopener noreferrer"}
@@ -13,19 +13,19 @@ classes: wide
 <font size= "4.5">
 <ins>What is the research problem the paper attempts to address?</ins><br>
   <font size="4">
-  {% include_relative {{ post_name | append: "_0.html" }} %}<br><br>
+  {% include_relative {{ post_name | append: "comprehension_0.html" }} %}<br><br>
   </font>
   
 <ins>What are the claimed contributions of the paper?</ins><br>
   <font size="4">
-  {% include_relative {{ post_name | append: "_0.html" }} %}<br><br>
+  {% include_relative {{ post_name | append: "comprehension_1.html" }} %}<br><br>
   </font>
   
 <ins>How do the authors substantiate their claims? bruh bruh</ins><br>
   <font size="4">
-  {% include_relative {{ post_name | append: "_claim_0.html" }} %}<br><br>
-  {% include_relative {{ post_name | append: "_claim_1.html" }} %}<br><br>
-  {% include_relative {{ post_name | append: "_claim_2.html" }} %}<br><br>
+  {% include_relative {{ post_name | append: "claim_0.html" }} %}<br><br>
+  {% include_relative {{ post_name | append: "claim_1.html" }} %}<br><br>
+  {% include_relative {{ post_name | append: "claim_2.html" }} %}<br><br>
   </font>
 <ins>What are the conclusions?</ins>
 </font>  
@@ -34,7 +34,7 @@ classes: wide
 <font size="4.5">
 <ins>Is the research problem significant?</ins><br>
   <font size="4">
-  {% include_relative {{ post_name | append: "_eval_0.html" }} %}<br><br>
+  {% include_relative {{ post_name | append: "eval_0.html" }} %}<br><br>
   </font>
 <ins>Are the contributions significant?</ins><br>
 <ins>Are the claims valid?</ins><br>
