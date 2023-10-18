@@ -10,7 +10,9 @@ Using an adversarially fine-tuned network (trained on CIFAR-10) using TRADES wit
 <br><br>
 
 <b>Claim (3):</b>  Pushing the decision boundary only slightly achieves enough robustness (while maintaining accuracy). New algorithm called "Helper-based Adversarial Training" (HAT) provides better robustness without sacrificing the accuracy compared to existing adversarial defenses.<br><br>
-The effect of <em>Helper-based Adversarial Training (HAT)</em> is claimed through experimental results that compare the accuracy and robustness of the networks adversarially trained with HAT and 3 other adversarial training methods.<br><br>
+The effect of <em>Helper-based Adversarial Training (HAT)</em> is claimed through experimental results that compare the accuracy and robustness of the networks adversarially trained with HAT and 3 other adversarial training methods.<br>
+How the algorithm works is by generating "helper examples," which will be used in adversarially training a network, by adding twice the amount of attack perturbation onto the original image. The labels of the helper examples are determined by the predictions of the standard network on the attack-perturbed (not twice) examples.
+<br><br>
 <a href="/assets/images/rade_2.PNG" target="_blank"><img src="/assets/images/rade_2.PNG" height="400" width="700"/></a>
 <br><br>
 The effect of HAT is also proven with different attack configurations (different <em>L<sub>&infin;</sub></em> and <em>L<sub>2</sub></em> values) and with larger datasets (TinyImageNet-200 and ImageNet-100).<br>
