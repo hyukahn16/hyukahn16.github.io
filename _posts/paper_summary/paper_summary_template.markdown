@@ -11,20 +11,6 @@ classes: wide
 <h2>Comprehension</h2>
 <font size= "4.5">
 <ins>What is the research problem the paper attempts to address?</ins><br>
-  <font size="4">
-  {% include_relative {{ post_name | append: "_0.html" }} %}<br><br>
-  </font>
-  
-<ins>What are the claimed contributions of the paper?</ins><br>
-  <font size="4">
-  {% include_relative {{ post_name | append: "_0.html" }} %}<br><br>
-  </font>
-  
-<ins>How do the authors substantiate their claims?</ins><br>
-  <font size="4">
-  {% include_relative {{ post_name | append: "_claim_0.html" }} %}<br><br><h2>Comprehension</h2>
-<font size= "4.5">
-<ins>What is the research problem the paper attempts to address?</ins><br>
   <font size="3.6">
   {% include_relative {{ post_name | append: "comprehension_0.html" }} %}
   </font>
