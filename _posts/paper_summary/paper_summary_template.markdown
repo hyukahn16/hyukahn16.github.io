@@ -4,7 +4,7 @@ title:
 categories: paper_summary
 classes: wide
 ---
-{% assign post_name = "rade" %}
+{% assign post_name = "rade/" %}
 [Paper Link](https://openreview.net/pdf?id=Azh9QBQ4tR7){:target="_blank"}{:rel="noopener noreferrer"}\
 [GitHub Code Link](https://github.com/imrahulr/hat){:target="_blank"}{:rel="noopener noreferrer"}
 
