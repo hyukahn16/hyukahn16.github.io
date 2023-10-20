@@ -4,7 +4,7 @@ title: Hold me tight! Influence of discriminative features on deep network bound
 categories: paper_summary
 classes: wide
 ---
-{% assign post_name = "modas" %}
+{% assign post_name = "modas/" %}
 \
 [Paper Link](https://proceedings.neurips.cc/paper/2020/file/1ea97de85eb634d580161c603422437f-Paper.pdf){:target="_blank"}{:rel="noopener noreferrer"}\
 [GitHub Code Link](https://github.com/LTS4/hold-me-tight){:target="_blank"}{:rel="noopener noreferrer"}
