@@ -2,7 +2,6 @@
 layout: single
 title: Robustness via curvature regularization, and vice versa
 categories: paper_summary
-classes: wide
 ---
 {% assign post_name = "uesato/" %}
 \
