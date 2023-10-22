@@ -6,8 +6,8 @@ classes: wide
 ---
 {% assign post_name = "uesato/" %}
 \
-[Paper Link](https://proceedings.neurips.cc/paper/2020/file/1ea97de85eb634d580161c603422437f-Paper.pdf){:target="_blank"}{:rel="noopener noreferrer"}\
-[GitHub Code Link](https://github.com/LTS4/hold-me-tight){:target="_blank"}{:rel="noopener noreferrer"}
+[Paper Link]([https://proceedings.neurips.cc/paper/2020/file/1ea97de85eb634d580161c603422437f-Paper.pdf](https://arxiv.org/pdf/1811.09716.pdf)){:target="_blank"}{:rel="noopener noreferrer"}\
+No GitHub :(
 
 <h2>Comprehension</h2>
 <font size= "4.5">
