@@ -5,7 +5,7 @@ categories: paper_summary
 ---
 {% assign post_name = "uesato/" %}
 \
-[Paper Link]([https://proceedings.neurips.cc/paper/2020/file/1ea97de85eb634d580161c603422437f-Paper.pdf](https://arxiv.org/pdf/1811.09716.pdf)){:target="_blank"}{:rel="noopener noreferrer"}\
+[Paper Link](https://openaccess.thecvf.com/content_CVPR_2019/papers/Moosavi-Dezfooli_Robustness_via_Curvature_Regularization_and_Vice_Versa_CVPR_2019_paper.pdf){:target="_blank"}{:rel="noopener noreferrer"}\
 No GitHub :(
 
 <h2>Comprehension</h2>
